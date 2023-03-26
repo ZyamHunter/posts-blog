@@ -8,7 +8,12 @@ const routes = [
     path: "/",
     name: "Home",
     component: () => import("../views/Home.vue"),
-  }
+  },
+  {
+    path: "/users",
+    name: "Users",
+    component: ()=> import("../views/Users.vue")
+  },
 ];
 
 const router = new VueRouter({
