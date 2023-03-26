@@ -4,7 +4,7 @@
         <div class="containerProfile">
             <div class="containerInfo">
                 <div class="myProfile">
-                    <span>My Profile</span>
+                    <span>User Profile</span>
                 </div>
                 <div class="containerUser">
                     <div class="infoTitle">
