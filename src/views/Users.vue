@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Header></Header>
         <div class="containerTop">
             <div class="containerInfo">
                 <div class="infos">
@@ -33,9 +34,14 @@
 
 <script>
 import api from '../services/index'
+import Header from "../components/Header.vue"
 
 export default {
     name: "Users",
+
+    components: {
+        Header
+    },
 
     data() {
         return {
