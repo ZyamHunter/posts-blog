@@ -88,20 +88,17 @@ export default {
 
 .post h2 {
   font-size: 20px;
-  margin: 0;
-  margin-bottom: 10px;
   color: #1755ca;
-  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10px 10px;
 }
 
 .post p {
   font-size: 16px;
-  margin: 0;
   text-align: justify;
-  height: 150px;
+  margin: 10px 10px;
 }
 
 .post-list-comment {
